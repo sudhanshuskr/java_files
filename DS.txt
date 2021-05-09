@@ -1,0 +1,45 @@
+    BIG-O NOTATION
+=========================================================================================
+
+Big-O notation gives an upper bound of the complexity in the worst 
+case, helping to quantify performance as input size becomes arbitrarily large.
+
+n - The size of the input
+
+       Constant time: O(1)
+    Logarithmic time: O(log(n))
+         Linear time: O(n)
+   Linearithmic time: O(nlog(n))
+      Quadratic time: O(n^2)
+          Cubic time: O(n^3)
+    Exponential time: O(b^n) [b > 1]
+      Factorial time: O(n!)
+
+O(n+c) = O(n)
+
+Examples
+
+O(n^2)   - 2X nested loop
+O(logn)  - Binary search
+O(2^n)   - Finding all subsets of a set
+O(n!)    - Finding all permutations of a string
+O(nlogn) - Sorting using mergesort
+O(nm)    - Iteration over all cells of mxn matrix
+///////////////////////////////////////////////////////////////////////////////////////
+
+
+
+STATIC AND DYNAMIC ARRAYS
+=======================================================================================
+
+Static array 
+- Fixed size
+- Continuous chunk of memory
+- Indexible
+
+Dynamic array
+- changes size
+- append
+- remove
+- intertion
+
