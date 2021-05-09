@@ -1,9 +1,13 @@
+import java.util.Arrays;
+
+import javax.swing.plaf.synth.SynthToggleButtonUI;
+
 public class DArryay {
  
     
-    public int[] T ;
-    public int length = 0;
-    public int capacity = 0;
+    private int[] T ;
+    private int length = 0;
+    private int capacity = 0;
 
 
     public DArryay(int capacity){
@@ -28,5 +32,19 @@ public class DArryay {
 
         }
 
+    }
+    public int getLength(){
+        return this.length;
+    }
+    public int getCapacity(){
+        return this.capacity;
+
+    }
+    public int[] array(){
+        return this.T;
+
+    }
+    public void printArr(){
+        System.out.println(Arrays.toString(this.T));
     }
 }

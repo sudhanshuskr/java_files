@@ -22,35 +22,30 @@ public class Quicktest {
     Timepass tp = new Timepass();
     tp.geta();
 
-    DynamicArray itemy = new DynamicArray();
-    itemy.add(4);
-    itemy.add(44);
 
 
     DArryay op = new DArryay(2);
-    System.out.println(Arrays.toString(op.T));
-    System.out.println(op.length);
-    System.out.println(op.capacity);
+    
+    op.printArr();
+
     op.add(1);
+    op.printArr();
 
-    System.out.println(Arrays.toString(op.T));
-    System.out.println(op.length);
-    System.out.println(op.capacity);
     op.add(2);
+    op.printArr();
 
-    System.out.println(Arrays.toString(op.T));
-    System.out.println(op.length);
-    System.out.println(op.capacity);
     op.add(3);
+    op.printArr();
 
-    System.out.println(Arrays.toString(op.T));
-    System.out.println(op.length);
-    System.out.println(op.capacity);
     op.add(4);
-//    System.out.println(itemy.toString());
-    System.out.println(Arrays.toString(op.T));
-    System.out.println(op.length);
-    System.out.println(op.capacity);
+    op.printArr();
+
+    op.add(5);
+    op.printArr();
+
+
+
+
 
 
     }
